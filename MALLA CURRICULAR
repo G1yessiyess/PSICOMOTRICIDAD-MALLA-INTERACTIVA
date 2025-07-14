@@ -58,7 +58,7 @@
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Anatomía</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Biología celular y tisular</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Neurobiología</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Cardiovascular y respiratorio</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Cardio vascular y respiratorio</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Digestivo, renal y endócrino</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Reproducción y desarrollo</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Profundización</label></div>
@@ -67,33 +67,4 @@
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Enfermería</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Salud Pública</label></div>
     <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Introducción a la Psicomotricidad</label></div>
-  </div>
-
-  <div class="anio">
-    <h2>Segundo Año</h2>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Desarrollo Psicomotor</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad I (Atención Primaria en Salud, A.P.S.)</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología II (Psicología del niño)</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Pedagogía</label></div>
-  </div>
-
-  <div class="anio">
-    <h2>Tercer Año</h2>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Neuropediatría</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad II (Educación Psicomotriz y Formación del Rol del Psicomotricista a través del trabajo corporal)</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología III</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psiquiatría Infantil (Psicopatología)</label></div>
-  </div>
-
-  <div class="anio">
-    <h2>Cuarto Año</h2>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad III (Diagnóstico y tratamiento Psicomotriz del ciclo vital)</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Clínicas de Lactantes</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología IV</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Deontología y legislación laboral</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Administración hospitalaria</label></div>
-    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Monografía</label></div>
-  </div>
-
-</body>
-</html>
+  </
