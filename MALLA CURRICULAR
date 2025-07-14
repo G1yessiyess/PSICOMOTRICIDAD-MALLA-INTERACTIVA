@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular - Psicomotricidad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9fafc;
+      margin: 20px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    .anio {
+      margin-bottom: 40px;
+    }
+
+    .materia {
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      border-radius: 5px;
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .materia input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .materia label {
+      flex: 1;
+    }
+
+    .checked label {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+  <script>
+    function toggleChecked(checkbox) {
+      const materiaDiv = checkbox.parentElement;
+      materiaDiv.classList.toggle('checked', checkbox.checked);
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Malla Curricular - Licenciatura en Psicomotricidad</h1>
+
+  <div class="anio">
+    <h2>Primer Año</h2>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Anatomía</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Biología celular y tisular</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Neurobiología</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Cardiovascular y respiratorio</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Digestivo, renal y endócrino</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Reproducción y desarrollo</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Profundización</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología I</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Metodología científica</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Enfermería</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Salud Pública</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Introducción a la Psicomotricidad</label></div>
+  </div>
+
+  <div class="anio">
+    <h2>Segundo Año</h2>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Desarrollo Psicomotor</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad I (Atención Primaria en Salud, A.P.S.)</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología II (Psicología del niño)</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Pedagogía</label></div>
+  </div>
+
+  <div class="anio">
+    <h2>Tercer Año</h2>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Neuropediatría</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad II (Educación Psicomotriz y Formación del Rol del Psicomotricista a través del trabajo corporal)</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología III</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psiquiatría Infantil (Psicopatología)</label></div>
+  </div>
+
+  <div class="anio">
+    <h2>Cuarto Año</h2>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicomotricidad III (Diagnóstico y tratamiento Psicomotriz del ciclo vital)</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Clínicas de Lactantes</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Psicología IV</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Deontología y legislación laboral</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Administración hospitalaria</label></div>
+    <div class="materia"><input type="checkbox" onchange="toggleChecked(this)"> <label>Monografía</label></div>
+  </div>
+
+</body>
+</html>
